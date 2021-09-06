@@ -39,6 +39,8 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("Ah! Glad to hear it.")
         elif "killzen" in message.content.lower():
             await message.channel.send("in your dreams lol")
+        elif "kilzen" in message.content.lower():
+            await message.channel.send("in your dreams lol")
         elif "kill zen" in message.content.lower():
             await message.channel.send("pfft not gonna happen kiddo")
         elif "kill" in message.content.lower():
