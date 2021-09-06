@@ -14,31 +14,29 @@ class HelloPlugin(commands.Cog):
         elif "good" in message.content.lower():
             await message.channel.send("Ah! Glad to hear it.")
         elif "bruh" in message.content.lower():
-            await message.channel.send("brooooooo :a_pepe_gundance: ")
+            await message.channel.send("brooooooo ")
+        elif "boss" in message.content.lower():
+            await message.channel.send("boss ded ")
         elif "kidnap" in message.content.lower():
-            await message.channel.send("I brought the guns. LETS DO THIS :a_burn:")
-        elif "op" in message.content.lower():
-            await message.channel.send(":a_pikacool: ")
+            await message.channel.send("I brought the guns. LETS DO THIS")
         elif "die" in message.content.lower():
-            await message.channel.send(":paimon_kill: NO")
+            await message.channel.send("NO")
         elif "dead" in message.content.lower():
-            await message.channel.send(":s_pepe_pray: RIP")
+            await message.channel.send("who isn't bro who isn't")
         elif "corpse" in message.content.lower():
-            await message.channel.send(":paimon_kill: NO")
-        elif "pro" in message.content.lower():
-            await message.channel.send(":paimon_kill: NO")
+            await message.channel.send("RIP")
         elif "kill" in message.content.lower():
-            await message.channel.send(":s_Anger: NO")
+            await message.channel.send("NO")
         elif "cute" in message.content.lower():
-            await message.channel.send(":s_aww: IKR")
+            await message.channel.send("IKR")
         elif "bro" in message.content.lower():
-            await message.channel.send("brooooooo :pepe_yaay:")
+            await message.channel.send("brooooooo")
         elif "zen" in message.content.lower():
-            await message.channel.send("don't tag master :paimon_kill:")
+            await message.channel.send("don't tag master")
         elif "chill" in message.content.lower():
-            await message.channel.send(":a_party_blob: ")
+            await message.channel.send("can't chill, too much work")
         elif "baka" in message.content.lower():
-            await message.channel.send("baka who? where? :s_gone_crazy:")
+            await message.channel.send("baka who? where?")
         elif "good morning" in message.content.lower():
             await message.channel.send("Good Morning !")
         elif "good night" in message.content.lower():
