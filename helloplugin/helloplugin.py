@@ -11,8 +11,6 @@ class HelloPlugin(commands.Cog):
 
         if "hello" in message.content.lower():
             await message.channel.send("Hey! How are you?")
-        elif "good" in message.content.lower():
-            await message.channel.send("Ah! Glad to hear it.")
         elif "bruh" in message.content.lower():
             await message.channel.send("brooooooo ")
         elif "boss" in message.content.lower():
@@ -25,8 +23,6 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("Dead? who isn't bro who isn't")
         elif "corpse" in message.content.lower():
             await message.channel.send("RIP")
-        elif "kill" in message.content.lower():
-            await message.channel.send("NO! em.. may be... yes?")
         elif "cute" in message.content.lower():
             await message.channel.send("IKR so damn cute uwu")
         elif "bro" in message.content.lower():
@@ -39,10 +35,14 @@ class HelloPlugin(commands.Cog):
             await message.channel.send("Good Morning !")
         elif "good night" in message.content.lower():
             await message.channel.send("Good Night !")
+        elif "good" in message.content.lower():
+            await message.channel.send("Ah! Glad to hear it.")
         elif "killzen" in message.content.lower():
             await message.channel.send("in your dreams lol")
         elif "kill zen" in message.content.lower():
             await message.channel.send("pfft not gonna happen kiddo")
+        elif "kill" in message.content.lower():
+            await message.channel.send("NO! em.. may be... yes?")
         elif "dum" in message.content.lower():
             await message.channel.send("Noi. You are dum")
         elif "bad" in message.content.lower():
